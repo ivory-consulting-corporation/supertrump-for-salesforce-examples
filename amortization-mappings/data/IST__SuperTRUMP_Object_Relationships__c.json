@@ -1,0 +1,22 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Object_Relationships__c",
+                "referenceId": "IST__SuperTRUMP_Object_Relationships__cRef2"
+            },
+            "Name": "IST__SuperTRUMP_PQ_Rent__c",
+            "IST__Child_To_Master_Field_Name__c": "Rent__c",
+            "IST__Child_To_Master_Relationship_Name__c": "Rent__r"
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Object_Relationships__c",
+                "referenceId": "IST__SuperTRUMP_Object_Relationships__cRef3"
+            },
+            "Name": "IST__SuperTRUMP_PQ_Loan__c",
+            "IST__Child_To_Master_Field_Name__c": "Loan__c",
+            "IST__Child_To_Master_Relationship_Name__c": "Loan__r"
+        }
+    ]
+}

@@ -1,0 +1,292 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef1"
+            },
+            "IST__SF_Master_Object_Name__c": "IST__SuperTRUMP_Pricing_Quote__c",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Rent_Amortization_Step__c",
+            "IST__SF_Object_Level__c": "3",
+            "IST__SF_Field_Name__c": "Order__c",
+            "IST__SF_Parent_Name__c": "IST__SuperTRUMP_PQ_Rent__c",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.Rents.Rent[].AmortSchedule.Cashflow[].Order",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__IsSynch_In__c": false,
+            "IST__IsSynch__c": true,
+            "IST__Allow_Salesforce_Changes__c": false
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef2"
+            },
+            "IST__SF_Master_Object_Name__c": "IST__SuperTRUMP_Pricing_Quote__c",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Rent_Amortization_Step__c",
+            "IST__SF_Object_Level__c": "3",
+            "IST__SF_Field_Name__c": "Date__c",
+            "IST__SF_Parent_Name__c": "IST__SuperTRUMP_PQ_Rent__c",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.Rents.Rent[].AmortSchedule.Cashflow[].Date",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__IsSynch_In__c": false,
+            "IST__IsSynch__c": true,
+            "IST__Allow_Salesforce_Changes__c": false
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef3"
+            },
+            "IST__SF_Master_Object_Name__c": "IST__SuperTRUMP_Pricing_Quote__c",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Rent_Amortization_Step__c",
+            "IST__SF_Object_Level__c": "3",
+            "IST__SF_Field_Name__c": "Funding__c",
+            "IST__SF_Parent_Name__c": "IST__SuperTRUMP_PQ_Rent__c",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.Rents.Rent[].AmortSchedule.Cashflow[].Funding",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__IsSynch_In__c": false,
+            "IST__IsSynch__c": true,
+            "IST__Allow_Salesforce_Changes__c": false
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef4"
+            },
+            "IST__SF_Master_Object_Name__c": "IST__SuperTRUMP_Pricing_Quote__c",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Rent_Amortization_Step__c",
+            "IST__SF_Object_Level__c": "3",
+            "IST__SF_Field_Name__c": "Residual__c",
+            "IST__SF_Parent_Name__c": "IST__SuperTRUMP_PQ_Rent__c",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.Rents.Rent[].AmortSchedule.Cashflow[].Residual",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__IsSynch_In__c": false,
+            "IST__IsSynch__c": true,
+            "IST__Allow_Salesforce_Changes__c": false
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef5"
+            },
+            "IST__SF_Master_Object_Name__c": "IST__SuperTRUMP_Pricing_Quote__c",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Rent_Amortization_Step__c",
+            "IST__SF_Object_Level__c": "3",
+            "IST__SF_Field_Name__c": "Payment__c",
+            "IST__SF_Parent_Name__c": "IST__SuperTRUMP_PQ_Rent__c",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.Rents.Rent[].AmortSchedule.Cashflow[].Payment",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__IsSynch_In__c": false,
+            "IST__IsSynch__c": true,
+            "IST__Allow_Salesforce_Changes__c": false
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef6"
+            },
+            "IST__SF_Master_Object_Name__c": "IST__SuperTRUMP_Pricing_Quote__c",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Rent_Amortization_Step__c",
+            "IST__SF_Object_Level__c": "3",
+            "IST__SF_Field_Name__c": "Interest__c",
+            "IST__SF_Parent_Name__c": "IST__SuperTRUMP_PQ_Rent__c",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.Rents.Rent[].AmortSchedule.Cashflow[].Interest",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__IsSynch_In__c": false,
+            "IST__IsSynch__c": true,
+            "IST__Allow_Salesforce_Changes__c": false
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef7"
+            },
+            "IST__SF_Master_Object_Name__c": "IST__SuperTRUMP_Pricing_Quote__c",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Rent_Amortization_Step__c",
+            "IST__SF_Object_Level__c": "3",
+            "IST__SF_Field_Name__c": "Rate__c",
+            "IST__SF_Parent_Name__c": "IST__SuperTRUMP_PQ_Rent__c",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.Rents.Rent[].AmortSchedule.Cashflow[].Rate",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__IsSynch_In__c": false,
+            "IST__IsSynch__c": true,
+            "IST__Allow_Salesforce_Changes__c": false
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef8"
+            },
+            "IST__SF_Master_Object_Name__c": "IST__SuperTRUMP_Pricing_Quote__c",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Rent_Amortization_Step__c",
+            "IST__SF_Object_Level__c": "3",
+            "IST__SF_Field_Name__c": "Principal__c",
+            "IST__SF_Parent_Name__c": "IST__SuperTRUMP_PQ_Rent__c",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.Rents.Rent[].AmortSchedule.Cashflow[].Principal",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__IsSynch_In__c": false,
+            "IST__IsSynch__c": true,
+            "IST__Allow_Salesforce_Changes__c": false
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef9"
+            },
+            "IST__SF_Master_Object_Name__c": "IST__SuperTRUMP_Pricing_Quote__c",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Rent_Amortization_Step__c",
+            "IST__SF_Object_Level__c": "3",
+            "IST__SF_Field_Name__c": "Balance__c",
+            "IST__SF_Parent_Name__c": "IST__SuperTRUMP_PQ_Rent__c",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.Rents.Rent[].AmortSchedule.Cashflow[].Balance",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__IsSynch_In__c": false,
+            "IST__IsSynch__c": true,
+            "IST__Allow_Salesforce_Changes__c": false
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef10"
+            },
+            "IST__SF_Master_Object_Name__c": "IST__SuperTRUMP_Pricing_Quote__c",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Loan_Amortization_Step__c",
+            "IST__SF_Object_Level__c": "3",
+            "IST__SF_Field_Name__c": "Order__c",
+            "IST__SF_Parent_Name__c": "IST__SuperTRUMP_PQ_Loan__c",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.LendingLoans.LendingLoan[].AmortSchedule.Cashflow[].Order",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__IsSynch_In__c": false,
+            "IST__IsSynch__c": true,
+            "IST__Allow_Salesforce_Changes__c": false
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef11"
+            },
+            "IST__SF_Master_Object_Name__c": "IST__SuperTRUMP_Pricing_Quote__c",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Loan_Amortization_Step__c",
+            "IST__SF_Object_Level__c": "3",
+            "IST__SF_Field_Name__c": "Date__c",
+            "IST__SF_Parent_Name__c": "IST__SuperTRUMP_PQ_Loan__c",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.LendingLoans.LendingLoan[].AmortSchedule.Cashflow[].Date",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__IsSynch_In__c": false,
+            "IST__IsSynch__c": true,
+            "IST__Allow_Salesforce_Changes__c": false
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef12"
+            },
+            "IST__SF_Master_Object_Name__c": "IST__SuperTRUMP_Pricing_Quote__c",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Loan_Amortization_Step__c",
+            "IST__SF_Object_Level__c": "3",
+            "IST__SF_Field_Name__c": "Funding__c",
+            "IST__SF_Parent_Name__c": "IST__SuperTRUMP_PQ_Loan__c",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.LendingLoans.LendingLoan[].AmortSchedule.Cashflow[].Funding",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__IsSynch_In__c": false,
+            "IST__IsSynch__c": true,
+            "IST__Allow_Salesforce_Changes__c": false
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef13"
+            },
+            "IST__SF_Master_Object_Name__c": "IST__SuperTRUMP_Pricing_Quote__c",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Loan_Amortization_Step__c",
+            "IST__SF_Object_Level__c": "3",
+            "IST__SF_Field_Name__c": "Residual__c",
+            "IST__SF_Parent_Name__c": "IST__SuperTRUMP_PQ_Loan__c",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.LendingLoans.LendingLoan[].AmortSchedule.Cashflow[].Residual",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__IsSynch_In__c": false,
+            "IST__IsSynch__c": true,
+            "IST__Allow_Salesforce_Changes__c": false
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef14"
+            },
+            "IST__SF_Master_Object_Name__c": "IST__SuperTRUMP_Pricing_Quote__c",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Loan_Amortization_Step__c",
+            "IST__SF_Object_Level__c": "3",
+            "IST__SF_Field_Name__c": "Payment__c",
+            "IST__SF_Parent_Name__c": "IST__SuperTRUMP_PQ_Loan__c",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.LendingLoans.LendingLoan[].AmortSchedule.Cashflow[].Payment",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__IsSynch_In__c": false,
+            "IST__IsSynch__c": true,
+            "IST__Allow_Salesforce_Changes__c": false
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef15"
+            },
+            "IST__SF_Master_Object_Name__c": "IST__SuperTRUMP_Pricing_Quote__c",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Loan_Amortization_Step__c",
+            "IST__SF_Object_Level__c": "3",
+            "IST__SF_Field_Name__c": "Interest__c",
+            "IST__SF_Parent_Name__c": "IST__SuperTRUMP_PQ_Loan__c",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.LendingLoans.LendingLoan[].AmortSchedule.Cashflow[].Interest",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__IsSynch_In__c": false,
+            "IST__IsSynch__c": true,
+            "IST__Allow_Salesforce_Changes__c": false
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef16"
+            },
+            "IST__SF_Master_Object_Name__c": "IST__SuperTRUMP_Pricing_Quote__c",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Loan_Amortization_Step__c",
+            "IST__SF_Object_Level__c": "3",
+            "IST__SF_Field_Name__c": "Rate__c",
+            "IST__SF_Parent_Name__c": "IST__SuperTRUMP_PQ_Loan__c",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.LendingLoans.LendingLoan[].AmortSchedule.Cashflow[].Rate",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__IsSynch_In__c": false,
+            "IST__IsSynch__c": true,
+            "IST__Allow_Salesforce_Changes__c": false
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef17"
+            },
+            "IST__SF_Master_Object_Name__c": "IST__SuperTRUMP_Pricing_Quote__c",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Loan_Amortization_Step__c",
+            "IST__SF_Object_Level__c": "3",
+            "IST__SF_Field_Name__c": "Principal__c",
+            "IST__SF_Parent_Name__c": "IST__SuperTRUMP_PQ_Loan__c",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.LendingLoans.LendingLoan[].AmortSchedule.Cashflow[].Principal",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__IsSynch_In__c": false,
+            "IST__IsSynch__c": true,
+            "IST__Allow_Salesforce_Changes__c": false
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef18"
+            },
+            "IST__SF_Master_Object_Name__c": "IST__SuperTRUMP_Pricing_Quote__c",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Loan_Amortization_Step__c",
+            "IST__SF_Object_Level__c": "3",
+            "IST__SF_Field_Name__c": "Balance__c",
+            "IST__SF_Parent_Name__c": "IST__SuperTRUMP_PQ_Loan__c",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.LendingLoans.LendingLoan[].AmortSchedule.Cashflow[].Balance",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__IsSynch_In__c": false,
+            "IST__IsSynch__c": true,
+            "IST__Allow_Salesforce_Changes__c": false
+        }
+    ]
+}
