@@ -1,0 +1,732 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef1"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "IRR_NPT__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "1",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.Yields.Yield[name=IRR PTCF (per)].NPT",
+            "IST__ST_Update_Priority__c": 0
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef2"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "MISF_NAT__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "1",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.Yields.Yield[name=MISF (per)].NAT",
+            "IST__ST_Update_Priority__c": 0
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef3"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Rent_IBR__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "1",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.PVs.PV[name=Rent].ValuePercent",
+            "IST__ST_Update_Priority__c": 0
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef4"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Description__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "2",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote_Asset__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.Assets.Asset[].Description",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__SF_Parent_Name__c": "SuperTRUMP_Quote__c"
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef5"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Cost__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "2",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote_Asset__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.Assets.Asset[].Cost",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__SF_Parent_Name__c": "SuperTRUMP_Quote__c"
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef6"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Delivery__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "2",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote_Asset__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.Assets.Asset[].DeliveryDate",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__SF_Parent_Name__c": "SuperTRUMP_Quote__c"
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef7"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Residual_Amount__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "2",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote_Asset__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.Assets.Asset[].Residual",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__SF_Parent_Name__c": "SuperTRUMP_Quote__c"
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef8"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Residual_Percent__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "2",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote_Asset__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.Assets.Asset[].ResidualAsPercentOfCost",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__SF_Parent_Name__c": "SuperTRUMP_Quote__c"
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef9"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Description__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "2",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote_Rent__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.Rents.Rent[].Description",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__SF_Parent_Name__c": "SuperTRUMP_Quote__c"
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef10"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Advance_Payment__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "2",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote_Rent__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.Rents.Rent[].AdvancePayment",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__SF_Parent_Name__c": "SuperTRUMP_Quote__c"
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef11"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Total_Payments__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "2",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote_Rent__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.Rents.Rent[].SumOfPayments",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__SF_Parent_Name__c": "SuperTRUMP_Quote__c"
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef12"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Number_Of_Payments__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "2",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote_Rent__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.Rents.Rent[].NumberOfPayments",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__SF_Parent_Name__c": "SuperTRUMP_Quote__c"
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef13"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Description__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "2",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote_Loan__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.LendingLoans.LendingLoan[].Description",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__SF_Parent_Name__c": "SuperTRUMP_Quote__c"
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef14"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Start_Date__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "2",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote_Loan__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.LendingLoans.LendingLoan[].FirstStartAccrual",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__SF_Parent_Name__c": "SuperTRUMP_Quote__c"
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef15"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": false,
+            "IST__IsSynch_In__c": true,
+            "IST__SF_Field_Name__c": "Name",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "1",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.ZephyrData.Quote.CompositeQuoteNumber",
+            "IST__ST_Update_Priority__c": 0
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef16"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Cost__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "1",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.AssetCost",
+            "IST__ST_Update_Priority__c": 0
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef17"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Quote_Name__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "1",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.TransactionDescription",
+            "IST__ST_Update_Priority__c": 0
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef18"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Commencement__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "1",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.CommencementDate",
+            "IST__ST_Update_Priority__c": 0
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef19"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Finance_Type__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "1",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.ZephyrData.FinanceType",
+            "IST__ST_Update_Priority__c": 0
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef20"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Term__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "1",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.TermInMonths",
+            "IST__ST_Update_Priority__c": 0
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef21"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Payment__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "1",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.AveragePayment",
+            "IST__ST_Update_Priority__c": 0
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef22"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Payment_Timing__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "1",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.ZephyrData.PaymentTiming",
+            "IST__ST_Update_Priority__c": 0
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef23"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Periodicity__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "1",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.Periodicity",
+            "IST__ST_Update_Priority__c": 0
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef24"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Delivery_Date__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "1",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.TransactionStartDate",
+            "IST__ST_Update_Priority__c": 0
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef25"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Residual__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "1",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.ResidualAmount",
+            "IST__ST_Update_Priority__c": 0
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef26"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Total_Lending__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "1",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.TotalLendingLoans",
+            "IST__ST_Update_Priority__c": 0
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef27"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Takedown__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "1",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.TransactionStartDate",
+            "IST__ST_Update_Priority__c": 0
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef28"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Lending_Rate__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "1",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.LendingRate",
+            "IST__ST_Update_Priority__c": 0
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef29"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Balloon__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "1",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.Balloon",
+            "IST__ST_Update_Priority__c": 0
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef30"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Mode__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "1",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.Mode",
+            "IST__ST_Update_Priority__c": 0
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef31"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Lessor_FAS__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "1",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.Results.LessorAccountingMethod",
+            "IST__ST_Update_Priority__c": 0
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef32"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Advance_Payment__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "2",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote_Loan__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.LendingLoans.LendingLoan[].AdvancePayment",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__SF_Parent_Name__c": "SuperTRUMP_Quote__c"
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef33"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Total_Payments__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "2",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote_Loan__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.LendingLoans.LendingLoan[].SumOfPayments",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__SF_Parent_Name__c": "SuperTRUMP_Quote__c"
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef34"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Total_Funding__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "2",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote_Loan__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.LendingLoans.LendingLoan[].SumOfFundings",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__SF_Parent_Name__c": "SuperTRUMP_Quote__c"
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef35"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Number_Of_Payments__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "2",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote_Loan__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.LendingLoans.LendingLoan[].NumberOfPayments",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__SF_Parent_Name__c": "SuperTRUMP_Quote__c"
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef36"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Description__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "2",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote_Income_Fee__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.IncomeFees.IncomeFee[*].IncomeData.Description",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__SF_Parent_Name__c": "SuperTRUMP_Quote__c"
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef37"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Amount__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "2",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote_Income_Fee__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.IncomeFees.IncomeFee[*].IncomeData.Amount",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__SF_Parent_Name__c": "SuperTRUMP_Quote__c"
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef38"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Percent__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "2",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote_Income_Fee__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.IncomeFees.IncomeFee[*].IncomeData.PercentOfTotalCost",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__SF_Parent_Name__c": "SuperTRUMP_Quote__c"
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef39"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Paid_Date__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "2",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote_Income_Fee__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.IncomeFees.IncomeFee[*].IncomeData.FeeDate",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__SF_Parent_Name__c": "SuperTRUMP_Quote__c"
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef40"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Description__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "2",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote_Expense_Fee__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.ExpenseFees.ExpenseFee[*].ExpenseData.Description",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__SF_Parent_Name__c": "SuperTRUMP_Quote__c"
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef41"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Amount__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "2",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote_Expense_Fee__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.ExpenseFees.ExpenseFee[*].ExpenseData.Amount",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__SF_Parent_Name__c": "SuperTRUMP_Quote__c"
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef42"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Percent__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "2",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote_Expense_Fee__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.ExpenseFees.ExpenseFee[*].ExpenseData.PercentOfTotalCost",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__SF_Parent_Name__c": "SuperTRUMP_Quote__c"
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef43"
+            },
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": true,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Paid_Date__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "2",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote_Expense_Fee__c",
+            "IST__SOR__c": "ST",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.ExpenseFees.ExpenseFee[*].ExpenseData.FeeDate",
+            "IST__ST_Update_Priority__c": 0,
+            "IST__SF_Parent_Name__c": "SuperTRUMP_Quote__c"
+        },
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Mapping__c",
+                "referenceId": "IST__SuperTRUMP_Mapping__cRef44"
+            },
+            "IST__External_Binding__c": "supertrump_pricing_quote__c__quotestatus__c",
+            "IST__Allow_Salesforce_Changes__c": false,
+            "IST__IsSynch__c": false,
+            "IST__IsSynch_In__c": false,
+            "IST__SF_Field_Name__c": "Quote_Status__c",
+            "IST__SF_Master_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SF_Object_Level__c": "1",
+            "IST__SF_Object_Name__c": "SuperTRUMP_Quote__c",
+            "IST__SOR__c": "SF",
+            "IST__ST_Field_Name__c": "Opportunity.Quotes.Quote[].Transaction.QuoteStatus",
+            "IST__ST_Update_Priority__c": 0
+        }
+    ]
+}

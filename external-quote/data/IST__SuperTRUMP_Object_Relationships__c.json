@@ -1,0 +1,13 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Object_Relationships__c",
+                "referenceId": "IST__SuperTRUMP_Object_Relationships__cRef2"
+            },
+            "Name": "SuperTRUMP_Quote__c",
+            "IST__Child_To_Master_Field_Name__c": "Quote__c",
+            "IST__Child_To_Master_Relationship_Name__c": "Quote__r"
+        }
+    ]
+}

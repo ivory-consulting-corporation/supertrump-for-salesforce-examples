@@ -1,0 +1,55 @@
+<apex:page showHeader="true" title="SuperTRUMP Clone" standardController="SuperTRUMP_Quote__c" extensions="IST.SuperTRUMPCloneController"  action="{!cloneRecord}">
+<apex:sectionHeader title="New Quote" />
+
+    <apex:form title="Clone Pricing Quote"  id="ClonePricingQuote">
+          
+          <apex:pageBlock title="Clone Quote" id="pq" mode="insert" dir="">
+              <apex:pageMessages />
+              <apex:outputText >Are you sure you want to clone {!recordName}.</apex:outputText>
+              <apex:pageBlockButtons location="both">
+                  <apex:commandButton value="Clone"
+                    action="{!Save}"
+                    oncomplete="actionComplete('{!actionNavigate}', '{!actionView}','{!actionURL}' );"
+                  />
+                  <apex:commandButton action="{!cancel}" 
+                    id="cancelButton" 
+                    accesskey=""
+                    oncomplete="actionComplete('{!actionNavigate}', '{!actionView}','{!actionURL}' );"
+                    value="Cancel"
+                  />
+
+              </apex:pageBlockButtons>
+
+          </apex:pageBlock>
+    </apex:form>
+
+    <script type="text/javascript">               
+        function actionComplete (nav, view, url) { 
+            var isSF1 = ((typeof sforce != 'undefined') && sforce && sforce.one);
+            
+            if (isSF1) {
+                //alert('made it '+nav+';'+view+';'+url);
+                if (nav && nav == 'back') {
+                    //window.history.go(-2);    //avoid a blank page
+                    sforce.one.back(true);
+                    //Sfdc.canvas.publisher.publish({name: "publisher.close", payload:{ refresh:"true"}});
+
+                    return null;   
+                } else if (nav) {
+                    //alert('going to '+nav);
+                    if (view) {
+                        sforce.one.navigateToSObject(nav, view);
+                    } else {
+                        sforce.one.navigateToSObject(nav);
+                    }
+                } else if (url) {
+                    sforce.one.navigateToURL(url, true);
+                }
+            }        
+        };
+
+    </script> 
+    
+    <apex:pageMessages />
+    
+</apex:page>

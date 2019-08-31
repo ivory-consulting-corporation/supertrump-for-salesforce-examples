@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Quote Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Quoted</fullName>
+                <default>true</default>
+                <label>Not Quoted</label>
+            </value>
+            <value>
+                <fullName>Waited for Credit Check</fullName>
+                <default>false</default>
+                <label>Waited for Credit Check</label>
+            </value>
+            <value>
+                <fullName>Ready to Quote</fullName>
+                <default>false</default>
+                <label>Ready to Quote</label>
+            </value>
+            <value>
+                <fullName>Quoted</fullName>
+                <default>false</default>
+                <label>Quoted</label>
+            </value>
+            <value>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+                <label>Accepted</label>
+            </value>
+            <value>
+                <fullName>Waiting for Documentation</fullName>
+                <default>false</default>
+                <label>Waiting for Documentation</label>
+            </value>
+            <value>
+                <fullName>Ready to Book</fullName>
+                <default>false</default>
+                <label>Ready to Book</label>
+            </value>
+            <value>
+                <fullName>Booked</fullName>
+                <default>false</default>
+                <label>Booked</label>
+            </value>
+            <value>
+                <fullName>Rejected by Client</fullName>
+                <default>false</default>
+                <label>Rejected by Client</label>
+            </value>
+            <value>
+                <fullName>Rejected by Lessor</fullName>
+                <default>false</default>
+                <label>Rejected by Lessor</label>
+            </value>
+            <value>
+                <fullName>Rejected by Lender</fullName>
+                <default>false</default>
+                <label>Rejected by Lender</label>
+            </value>
+            <value>
+                <fullName>Rejected by Broker</fullName>
+                <default>false</default>
+                <label>Rejected by Broker</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
