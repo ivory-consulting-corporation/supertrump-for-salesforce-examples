@@ -1,0 +1,12 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "IST__SuperTRUMP_Hierarchy_Definition__c",
+                "referenceId": "IST__SuperTRUMP_Hierarchy_Definition__cRef1"
+            },
+            "Name": "IST__SuperTRUMP_Pricing_Quote__c",
+            "IST__Initial_State_Interface__c": "SuperTRUMPDefaultValues"
+        }
+    ]
+}
