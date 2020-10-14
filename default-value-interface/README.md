@@ -7,6 +7,8 @@ SuperTRUMP for Salesforce has a Default Value Mapping object that allows package
 
 SuperTRUMP for Salesforce exposes an interface in apex that package subscribers can use to create default values for the SuperTRUMP interface. Creating default values in apex allows a developer to use SOQL, custom logic, and other features available in apex to customize the default values to the needs of the organization. For example, creating an apex class that implements this interface could set default values based on the template of the quote being created.
 
+The SuperTRUMPDefaultValues.cls class that is provided is an example implementation and your developers should review it and make appropriate changes to satisfy the needs of the business.
+
 # Installation
 
 Installing this add-on requires the *SuperTRUMP for Salesforce* managed package version 1.15.1 or greater to already be installed in the org where it will be deployed.
