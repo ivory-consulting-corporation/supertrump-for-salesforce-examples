@@ -40,7 +40,7 @@ sfdx force:data:tree:import -u <username> -f data/IST__SuperTRUMP_Mapping__c.jso
 sfdx force:user:permset:assign -u <username> -n SuperTRUMP_With_Cash_Flows
 ```
 
-Additionally, the `SuperTRUMPSetup.cls` apex class could also be instead of the 
+Additionally, the `SuperTRUMPSetup.cls` apex class can also be used instead of the 
 `sfdx force:data:tree:import` command, to install the custom settings and mappings. To do so,
 run the following from the developer console in Salesforce:
 
